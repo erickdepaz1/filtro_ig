@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "pelicula1",
+  "identifier": "texture:5260-a7ac2770-cf78-43d8-af9e-9c54fb906fc6",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "9d25251f91fc75cd096258eabf887d00",
+  "assetLocator": "textures/pelicula1.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 591,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 591,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "9d25251f91fc75cd096258eabf887d00",
+      "colorCount": 84007,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 7.24734113206322,
+      "pixelsHigh": 591,
+      "pixelsWide": 591
+    }
+  ]
+}

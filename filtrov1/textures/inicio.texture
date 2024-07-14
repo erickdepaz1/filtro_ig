@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "inicio",
+  "identifier": "texture:583702-c2123c71-660a-4a2c-a79a-f5186d0cd563",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "e575e60e41508a622cd57d893ac149e4",
+  "assetLocator": "textures/inicio.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 591,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 591,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "e575e60e41508a622cd57d893ac149e4",
+      "colorCount": 1132,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 1.9709637456269504,
+      "pixelsHigh": 591,
+      "pixelsWide": 591
+    }
+  ]
+}

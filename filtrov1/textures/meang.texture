@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "meang",
+  "identifier": "texture:583828-c2123c71-660a-4a2c-a79a-f5186d0cd563",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "d5706771b19e51dffa9acbf5bcb35124",
+  "assetLocator": "textures/meang.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 591,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 591,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "d5706771b19e51dffa9acbf5bcb35124",
+      "colorCount": 83591,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 6.73041746889339,
+      "pixelsHigh": 591,
+      "pixelsWide": 591
+    }
+  ]
+}

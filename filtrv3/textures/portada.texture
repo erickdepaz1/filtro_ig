@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "portada",
+  "identifier": "texture:5264-a7ac2770-cf78-43d8-af9e-9c54fb906fc6",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "6a7b0c82cbe85c8ff1d5873bfd86391a",
+  "assetLocator": "textures/portada.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 591,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 591,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "6a7b0c82cbe85c8ff1d5873bfd86391a",
+      "colorCount": 1692,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 2.6514667315927953,
+      "pixelsHigh": 591,
+      "pixelsWide": 591
+    }
+  ]
+}

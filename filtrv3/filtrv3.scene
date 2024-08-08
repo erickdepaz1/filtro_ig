@@ -1,0 +1,1214 @@
+{
+  "modelName": "scene",
+  "identifier": "scene:4405-a7ac2770-cf78-43d8-af9e-9c54fb906fc6",
+  "animationMask": {
+    "position": false,
+    "rotation": false,
+    "scale": false
+  },
+  "cameraVisibility": "back|front",
+  "hidden": false,
+  "outputVisibility": "preview|capture",
+  "physicsEnabled": false,
+  "tags": [],
+  "transform": {
+    "rx": 0,
+    "ry": 0,
+    "rz": 0,
+    "sx": 1,
+    "sy": 1,
+    "sz": 1,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "children": [
+    {
+      "modelName": "device",
+      "name": "Device",
+      "identifier": "device:4461-a7ac2770-cf78-43d8-af9e-9c54fb906fc6",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "hidden": false,
+      "layerIdentifier": "layer0",
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "tags": [],
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "children": [
+        {
+          "modelName": "camera",
+          "name": "Camera",
+          "identifier": "camera:4463-a7ac2770-cf78-43d8-af9e-9c54fb906fc6",
+          "animationMask": {
+            "position": false,
+            "rotation": false,
+            "scale": false
+          },
+          "cameraVisibility": "back|front",
+          "hidden": false,
+          "layerIdentifier": "layer0",
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "projectionType": "perspective",
+          "tags": [],
+          "transform": {
+            "rx": 0,
+            "ry": 0,
+            "rz": 0,
+            "sx": 1,
+            "sy": 1,
+            "sz": 1,
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "updateSource": "gyro",
+          "children": [
+            {
+              "modelName": "focalDistance",
+              "name": "Focal Distance",
+              "identifier": "focalDistance:4465-a7ac2770-cf78-43d8-af9e-9c54fb906fc6",
+              "animationMask": {
+                "position": false,
+                "rotation": false,
+                "scale": false
+              },
+              "cameraVisibility": "back|front",
+              "hidden": false,
+              "layerIdentifier": "layer0",
+              "outputVisibility": "preview|capture",
+              "physicsEnabled": false,
+              "tags": [],
+              "transform": {
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "x": 0,
+                "y": 0,
+                "z": -0.5361266732215881
+              },
+              "children": [
+                {
+                  "modelName": "ambient_light_source_model",
+                  "name": "ambientLight0",
+                  "identifier": "ambient_light_source_model:4471-a7ac2770-cf78-43d8-af9e-9c54fb906fc6",
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": "back|front",
+                  "color": "0xffffffff",
+                  "hidden": false,
+                  "intensity": 0.20000000298023224,
+                  "layerIdentifier": "layer0",
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "tags": [],
+                  "transform": {
+                    "rx": 0,
+                    "ry": 0,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "modelName": "directional_light_source_model",
+                  "name": "directionalLight0",
+                  "identifier": "directional_light_source_model:4473-a7ac2770-cf78-43d8-af9e-9c54fb906fc6",
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": "back|front",
+                  "castShadow": false,
+                  "color": "0xffffffff",
+                  "hidden": false,
+                  "intensity": 0.800000011920929,
+                  "layerIdentifier": "layer0",
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "shadowBias": 0.05000000074505806,
+                  "shadowFrustumDepth": 1,
+                  "shadowFrustumSize": 0.5,
+                  "shadowNear": 0.05,
+                  "shadowSoftness": 0,
+                  "shadowStrength": 1,
+                  "shadowTextureSize": 512,
+                  "tags": [],
+                  "transform": {
+                    "rx": -0.7853981633974483,
+                    "ry": 0.08726646259971647,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0.03,
+                    "y": 0.25,
+                    "z": 0.3
+                  }
+                },
+                {
+                  "modelName": "facetracker",
+                  "name": "faceTracker0",
+                  "identifier": "facetracker:4688-a7ac2770-cf78-43d8-af9e-9c54fb906fc6",
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": "back|front",
+                  "faceId": 0,
+                  "hidden": false,
+                  "layerIdentifier": "layer0",
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "tags": [],
+                  "transform": {
+                    "rx": 0,
+                    "ry": 0,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "children": [
+                    {
+                      "modelName": "facehigh",
+                      "name": "reto",
+                      "identifier": "facehigh:4794-a7ac2770-cf78-43d8-af9e-9c54fb906fc6",
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": "back|front",
+                      "castShadow": false,
+                      "drawHalo": true,
+                      "eyesMode": "patched",
+                      "faceDistortionMode": "vertex",
+                      "faceId": 0,
+                      "faceMeshResolution": "high",
+                      "hidden": false,
+                      "isMaterialIdentifierEnabled": true,
+                      "layerIdentifier": "layer0",
+                      "materialIdentifier": "retouchingMaterial:5130-a7ac2770-cf78-43d8-af9e-9c54fb906fc6",
+                      "mouthMode": "patched",
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "receiveShadow": false,
+                      "renderPass": "retouching",
+                      "tags": [],
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "children": [
+                        {
+                          "modelName": "blend_shapes_model",
+                          "identifier": "blend_shapes_model:4796-a7ac2770-cf78-43d8-af9e-9c54fb906fc6"
+                        }
+                      ]
+                    },
+                    {
+                      "modelName": "plane",
+                      "name": "portada",
+                      "identifier": "plane:5392-a7ac2770-cf78-43d8-af9e-9c54fb906fc6",
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": "back|front",
+                      "castShadow": false,
+                      "hidden": true,
+                      "horizontalAlignment": "center",
+                      "horizontalSpacing": 0,
+                      "isMaterialIdentifierEnabled": true,
+                      "layerIdentifier": "layer0",
+                      "materialIdentifier": "defaultMaterial:6574-a7ac2770-cf78-43d8-af9e-9c54fb906fc6",
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "receiveShadow": false,
+                      "renderPass": "main_scene",
+                      "tags": [],
+                      "textureHeight": 0.1,
+                      "textureWidth": 0.1,
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1.2999999523162842,
+                        "sy": 1.2999999523162842,
+                        "sz": 1.2999999523162842,
+                        "x": 0,
+                        "y": 0.22499999403953552,
+                        "z": 0
+                      },
+                      "verticalAlignment": "center",
+                      "verticalSpacing": 0
+                    },
+                    {
+                      "modelName": "plane",
+                      "name": "pelicula",
+                      "identifier": "plane:5908-a7ac2770-cf78-43d8-af9e-9c54fb906fc6",
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": "back|front",
+                      "castShadow": false,
+                      "hidden": false,
+                      "horizontalAlignment": "center",
+                      "horizontalSpacing": 0,
+                      "isMaterialIdentifierEnabled": true,
+                      "layerIdentifier": "layer0",
+                      "materialIdentifier": "defaultMaterial:6136-a7ac2770-cf78-43d8-af9e-9c54fb906fc6",
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "receiveShadow": false,
+                      "renderPass": "main_scene",
+                      "tags": [],
+                      "textureHeight": 0.1,
+                      "textureWidth": 0.1,
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1.2999999523162842,
+                        "sy": 1.2999999523162842,
+                        "sz": 1.2999999523162842,
+                        "x": 0,
+                        "y": 0.22499999403953552,
+                        "z": 0
+                      },
+                      "verticalAlignment": "center",
+                      "verticalSpacing": 0
+                    }
+                  ]
+                },
+                {
+                  "modelName": "facetracker",
+                  "name": "faceTracker1",
+                  "identifier": "facetracker:4215-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": "back|front",
+                  "faceId": 0,
+                  "hidden": false,
+                  "layerIdentifier": "layer0",
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "tags": [],
+                  "transform": {
+                    "rx": 0,
+                    "ry": 0,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "children": [
+                    {
+                      "modelName": "3_d_object_instance_model",
+                      "name": "headOccluder",
+                      "identifier": "master3_d_object_model:4751-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                      "sourceIdentifier": "master3_d_object_model:3913-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": "back|front",
+                      "depth": 0.18822605907917023,
+                      "height": 0.22041338682174683,
+                      "hidden": false,
+                      "layerIdentifier": "layer0",
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "tags": [],
+                      "transform": {
+                        "rx": 0,
+                        "ry": -0,
+                        "rz": 0,
+                        "sx": 1.3609814643859863,
+                        "sy": 1.3626234531402588,
+                        "sz": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "width": 0.16882985830307007,
+                      "children": [
+                        {
+                          "modelName": "mesh",
+                          "name": "headOccluder",
+                          "identifier": "mesh:4760-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                          "sourceIdentifier": "mesh:3903-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                          "animationMask": {
+                            "position": false,
+                            "rotation": false,
+                            "scale": false
+                          },
+                          "cameraVisibility": "back|front",
+                          "castShadow": false,
+                          "hidden": false,
+                          "layerIdentifier": "layer0",
+                          "nodeName": "headOccluder",
+                          "numberOfFaces": 760,
+                          "outputVisibility": "preview|capture",
+                          "physicsEnabled": false,
+                          "prefabIdentifier": "gltf:3907-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                          "receiveShadow": false,
+                          "renderPass": "main_scene",
+                          "tags": [],
+                          "transform": {
+                            "rx": 0,
+                            "ry": 0,
+                            "rz": 0,
+                            "sx": 1,
+                            "sy": 1,
+                            "sz": 1,
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "useEmbeddedBlendshapes": false,
+                          "children": [
+                            {
+                              "modelName": "surfaces",
+                              "identifier": "surfaces:4763-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                              "sourceIdentifier": "surfaces:3905-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                              "children": [
+                                {
+                                  "modelName": "surface",
+                                  "name": "surface0",
+                                  "identifier": "surface:4766-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                  "sourceIdentifier": "surface:3910-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                  "isMaterialIdentifierEnabled": true,
+                                  "materialIdentifier": "defaultMaterial:6486-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                  "surfaceGroupIdentifier": "3911-71c379bd-ed9c-491f-a94c-f930b50b3732"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "modelName": "sceneObject",
+                  "name": "nullObject0",
+                  "identifier": "sceneObject:8319-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": "back|front",
+                  "hidden": false,
+                  "layerIdentifier": "layer0",
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "shapeColor": "0xff808080",
+                  "shapeType": 0,
+                  "tags": [],
+                  "transform": {
+                    "rx": 0,
+                    "ry": -0,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0.011309036053717136,
+                    "y": 4.743762929138029E-7,
+                    "z": -0.32632994651794434
+                  },
+                  "children": [
+                    {
+                      "modelName": "3_d_object_instance_model",
+                      "name": "Question 3D icon",
+                      "identifier": "master3_d_object_model11114-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                      "sourceIdentifier": "master3_d_object_model:7140-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": "back|front",
+                      "depth": 3.099813938140869,
+                      "height": 0.5604321360588074,
+                      "hidden": false,
+                      "layerIdentifier": "layer0",
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "tags": [],
+                      "transform": {
+                        "rx": -0.07417775690555573,
+                        "ry": -0.08927556127309799,
+                        "rz": -3.134967088699341,
+                        "sx": 0.030000630766153336,
+                        "sy": 0.030000636354088783,
+                        "sz": 0.030000632628798485,
+                        "x": -0.1934102326631546,
+                        "y": -0.0001904566161101684,
+                        "z": 0.12812644243240356
+                      },
+                      "width": 2.1433117389678955,
+                      "children": [
+                        {
+                          "modelName": "sceneObject",
+                          "name": "2c54e206c80d40afb6ba34ec1e79adae.fbx",
+                          "identifier": "sceneObject11134-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                          "sourceIdentifier": "sceneObject:7108-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                          "animationMask": {
+                            "position": false,
+                            "rotation": false,
+                            "scale": false
+                          },
+                          "cameraVisibility": "back|front",
+                          "hidden": false,
+                          "layerIdentifier": "layer0",
+                          "outputVisibility": "preview|capture",
+                          "physicsEnabled": false,
+                          "shapeColor": "0xff808080",
+                          "shapeType": 0,
+                          "tags": [],
+                          "transform": {
+                            "rx": 1.570796251296997,
+                            "ry": 0,
+                            "rz": 0,
+                            "sx": 1,
+                            "sy": 0.9999999403953552,
+                            "sz": 0.9999999403953552,
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "children": [
+                            {
+                              "modelName": "sceneObject",
+                              "name": "RootNode",
+                              "identifier": "sceneObject11137-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                              "sourceIdentifier": "sceneObject:7110-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "hidden": false,
+                              "layerIdentifier": "layer0",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "shapeColor": "0xff808080",
+                              "shapeType": 0,
+                              "tags": [],
+                              "transform": {
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 1,
+                                "sy": 1,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "children": [
+                                {
+                                  "modelName": "sceneObject",
+                                  "name": "Camera",
+                                  "identifier": "sceneObject11140-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                  "sourceIdentifier": "sceneObject:7112-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                  "animationMask": {
+                                    "position": false,
+                                    "rotation": false,
+                                    "scale": false
+                                  },
+                                  "cameraVisibility": "back|front",
+                                  "hidden": false,
+                                  "layerIdentifier": "layer0",
+                                  "outputVisibility": "preview|capture",
+                                  "physicsEnabled": false,
+                                  "shapeColor": "0xff808080",
+                                  "shapeType": 0,
+                                  "tags": [],
+                                  "transform": {
+                                    "rx": -2.949462890625,
+                                    "ry": 0.39378106594085693,
+                                    "rz": -2.704587697982788,
+                                    "sx": 100.00001525878906,
+                                    "sy": 100.0000228881836,
+                                    "sz": 100.00000762939453,
+                                    "x": 14.042681694030762,
+                                    "y": 6.559757232666016,
+                                    "z": 6.439657211303711
+                                  },
+                                  "children": [
+                                    {
+                                      "modelName": "sceneObject",
+                                      "name": "Object_4",
+                                      "identifier": "sceneObject11143-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                      "sourceIdentifier": "sceneObject:7114-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                      "animationMask": {
+                                        "position": false,
+                                        "rotation": false,
+                                        "scale": false
+                                      },
+                                      "cameraVisibility": "back|front",
+                                      "hidden": false,
+                                      "layerIdentifier": "layer0",
+                                      "outputVisibility": "preview|capture",
+                                      "physicsEnabled": false,
+                                      "shapeColor": "0xff808080",
+                                      "shapeType": 0,
+                                      "tags": [],
+                                      "transform": {
+                                        "rx": 0,
+                                        "ry": 0,
+                                        "rz": 0,
+                                        "sx": 1,
+                                        "sy": 1,
+                                        "sz": 1,
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "modelName": "sceneObject",
+                                  "name": "BezierCurve",
+                                  "identifier": "sceneObject11146-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                  "sourceIdentifier": "sceneObject:7116-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                  "animationMask": {
+                                    "position": false,
+                                    "rotation": false,
+                                    "scale": false
+                                  },
+                                  "cameraVisibility": "back|front",
+                                  "hidden": false,
+                                  "layerIdentifier": "layer0",
+                                  "outputVisibility": "preview|capture",
+                                  "physicsEnabled": false,
+                                  "shapeColor": "0xff808080",
+                                  "shapeType": 0,
+                                  "tags": [],
+                                  "transform": {
+                                    "rx": -1.5707964897155762,
+                                    "ry": 0,
+                                    "rz": 0,
+                                    "sx": 100,
+                                    "sy": 100,
+                                    "sz": 100,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                  },
+                                  "children": [
+                                    {
+                                      "modelName": "mesh",
+                                      "name": "BezierCurve_Material_0",
+                                      "identifier": "mesh11149-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                      "sourceIdentifier": "mesh:7118-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                      "animationMask": {
+                                        "position": false,
+                                        "rotation": false,
+                                        "scale": false
+                                      },
+                                      "cameraVisibility": "back|front",
+                                      "castShadow": false,
+                                      "hidden": false,
+                                      "layerIdentifier": "layer0",
+                                      "nodeName": "BezierCurve_Material_0",
+                                      "numberOfFaces": 430,
+                                      "outputVisibility": "preview|capture",
+                                      "physicsEnabled": false,
+                                      "prefabIdentifier": "gltf:7122-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                      "receiveShadow": false,
+                                      "renderPass": "main_scene",
+                                      "tags": [],
+                                      "transform": {
+                                        "rx": 0,
+                                        "ry": 0,
+                                        "rz": 0,
+                                        "sx": 1,
+                                        "sy": 1,
+                                        "sz": 1,
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                      },
+                                      "useEmbeddedBlendshapes": false,
+                                      "children": [
+                                        {
+                                          "modelName": "surfaces",
+                                          "identifier": "surfaces11152-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                          "sourceIdentifier": "surfaces:7120-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                          "children": [
+                                            {
+                                              "modelName": "surface",
+                                              "name": "surface0",
+                                              "identifier": "surface11155-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                              "sourceIdentifier": "surface:7125-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                              "isMaterialIdentifierEnabled": true,
+                                              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:7104-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                              "surfaceGroupIdentifier": "7126-71c379bd-ed9c-491f-a94c-f930b50b3732"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "modelName": "sceneObject",
+                                  "name": "Cube",
+                                  "identifier": "sceneObject11158-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                  "sourceIdentifier": "sceneObject:7128-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                  "animationMask": {
+                                    "position": false,
+                                    "rotation": false,
+                                    "scale": false
+                                  },
+                                  "cameraVisibility": "back|front",
+                                  "hidden": false,
+                                  "layerIdentifier": "layer0",
+                                  "outputVisibility": "preview|capture",
+                                  "physicsEnabled": false,
+                                  "shapeColor": "0xff808080",
+                                  "shapeType": 0,
+                                  "tags": [],
+                                  "transform": {
+                                    "rx": -1.5707964897155762,
+                                    "ry": 0,
+                                    "rz": 0,
+                                    "sx": 32.75373458862305,
+                                    "sy": 32.75373458862305,
+                                    "sz": 32.75373458862305,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 1.1513503789901733
+                                  },
+                                  "children": [
+                                    {
+                                      "modelName": "mesh",
+                                      "name": "Cube_Material_0",
+                                      "identifier": "mesh11161-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                      "sourceIdentifier": "mesh:7130-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                      "animationMask": {
+                                        "position": false,
+                                        "rotation": false,
+                                        "scale": false
+                                      },
+                                      "cameraVisibility": "back|front",
+                                      "castShadow": false,
+                                      "hidden": false,
+                                      "layerIdentifier": "layer0",
+                                      "nodeName": "Cube_Material_0",
+                                      "numberOfFaces": 70,
+                                      "outputVisibility": "preview|capture",
+                                      "physicsEnabled": false,
+                                      "prefabIdentifier": "gltf:7134-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                      "receiveShadow": false,
+                                      "renderPass": "main_scene",
+                                      "tags": [],
+                                      "transform": {
+                                        "rx": 0,
+                                        "ry": 0,
+                                        "rz": 0,
+                                        "sx": 1,
+                                        "sy": 1,
+                                        "sz": 1,
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                      },
+                                      "useEmbeddedBlendshapes": false,
+                                      "children": [
+                                        {
+                                          "modelName": "surfaces",
+                                          "identifier": "surfaces11164-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                          "sourceIdentifier": "surfaces:7132-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                          "children": [
+                                            {
+                                              "modelName": "surface",
+                                              "name": "surface0",
+                                              "identifier": "surface11167-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                              "sourceIdentifier": "surface:7137-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                              "isMaterialIdentifierEnabled": true,
+                                              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:7104-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                              "surfaceGroupIdentifier": "7138-71c379bd-ed9c-491f-a94c-f930b50b3732"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "modelName": "3_d_object_instance_model",
+                      "name": "Question 3D icon0",
+                      "identifier": "3_d_object_instance_model:11412-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                      "sourceIdentifier": "master3_d_object_model:7140-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": "back|front",
+                      "depth": 3.099813938140869,
+                      "height": 0.5604321360588074,
+                      "hidden": false,
+                      "layerIdentifier": "layer0",
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "tags": [],
+                      "transform": {
+                        "rx": -0.0112319840118289,
+                        "ry": -0,
+                        "rz": 0,
+                        "sx": 0.030000634491443634,
+                        "sy": 0.030000636354088783,
+                        "sz": 0.030000636354088783,
+                        "x": 0.1715853363275528,
+                        "y": -1.5842184097891732E-7,
+                        "z": 0.12552189826965332
+                      },
+                      "width": 2.1433117389678955,
+                      "children": [
+                        {
+                          "modelName": "sceneObject",
+                          "name": "2c54e206c80d40afb6ba34ec1e79adae.fbx",
+                          "identifier": "sceneObject:11414-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                          "sourceIdentifier": "sceneObject:7108-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                          "animationMask": {
+                            "position": false,
+                            "rotation": false,
+                            "scale": false
+                          },
+                          "cameraVisibility": "back|front",
+                          "hidden": false,
+                          "layerIdentifier": "layer0",
+                          "outputVisibility": "preview|capture",
+                          "physicsEnabled": false,
+                          "shapeColor": "0xff808080",
+                          "shapeType": 0,
+                          "tags": [],
+                          "transform": {
+                            "rx": 1.570796251296997,
+                            "ry": 0,
+                            "rz": 0,
+                            "sx": 1,
+                            "sy": 0.9999999403953552,
+                            "sz": 0.9999999403953552,
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "children": [
+                            {
+                              "modelName": "sceneObject",
+                              "name": "RootNode",
+                              "identifier": "sceneObject:11432-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                              "sourceIdentifier": "sceneObject:7110-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "hidden": false,
+                              "layerIdentifier": "layer0",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "shapeColor": "0xff808080",
+                              "shapeType": 0,
+                              "tags": [],
+                              "transform": {
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 1,
+                                "sy": 1,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "children": [
+                                {
+                                  "modelName": "sceneObject",
+                                  "name": "Camera",
+                                  "identifier": "sceneObject:11434-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                  "sourceIdentifier": "sceneObject:7112-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                  "animationMask": {
+                                    "position": false,
+                                    "rotation": false,
+                                    "scale": false
+                                  },
+                                  "cameraVisibility": "back|front",
+                                  "hidden": false,
+                                  "layerIdentifier": "layer0",
+                                  "outputVisibility": "preview|capture",
+                                  "physicsEnabled": false,
+                                  "shapeColor": "0xff808080",
+                                  "shapeType": 0,
+                                  "tags": [],
+                                  "transform": {
+                                    "rx": -2.949462890625,
+                                    "ry": 0.39378106594085693,
+                                    "rz": -2.704587697982788,
+                                    "sx": 100.00001525878906,
+                                    "sy": 100.0000228881836,
+                                    "sz": 100.00000762939453,
+                                    "x": 14.042681694030762,
+                                    "y": 6.559757232666016,
+                                    "z": 6.439657211303711
+                                  },
+                                  "children": [
+                                    {
+                                      "modelName": "sceneObject",
+                                      "name": "Object_4",
+                                      "identifier": "sceneObject:11424-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                      "sourceIdentifier": "sceneObject:7114-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                      "animationMask": {
+                                        "position": false,
+                                        "rotation": false,
+                                        "scale": false
+                                      },
+                                      "cameraVisibility": "back|front",
+                                      "hidden": false,
+                                      "layerIdentifier": "layer0",
+                                      "outputVisibility": "preview|capture",
+                                      "physicsEnabled": false,
+                                      "shapeColor": "0xff808080",
+                                      "shapeType": 0,
+                                      "tags": [],
+                                      "transform": {
+                                        "rx": 0,
+                                        "ry": 0,
+                                        "rz": 0,
+                                        "sx": 1,
+                                        "sy": 1,
+                                        "sz": 1,
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "modelName": "sceneObject",
+                                  "name": "BezierCurve",
+                                  "identifier": "sceneObject:11418-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                  "sourceIdentifier": "sceneObject:7116-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                  "animationMask": {
+                                    "position": false,
+                                    "rotation": false,
+                                    "scale": false
+                                  },
+                                  "cameraVisibility": "back|front",
+                                  "hidden": false,
+                                  "layerIdentifier": "layer0",
+                                  "outputVisibility": "preview|capture",
+                                  "physicsEnabled": false,
+                                  "shapeColor": "0xff808080",
+                                  "shapeType": 0,
+                                  "tags": [],
+                                  "transform": {
+                                    "rx": -1.5707964897155762,
+                                    "ry": 0,
+                                    "rz": 0,
+                                    "sx": 100,
+                                    "sy": 100,
+                                    "sz": 100,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                  },
+                                  "children": [
+                                    {
+                                      "modelName": "mesh",
+                                      "name": "BezierCurve_Material_0",
+                                      "identifier": "mesh:11426-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                      "sourceIdentifier": "mesh:7118-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                      "animationMask": {
+                                        "position": false,
+                                        "rotation": false,
+                                        "scale": false
+                                      },
+                                      "cameraVisibility": "back|front",
+                                      "castShadow": false,
+                                      "hidden": false,
+                                      "layerIdentifier": "layer0",
+                                      "nodeName": "BezierCurve_Material_0",
+                                      "numberOfFaces": 430,
+                                      "outputVisibility": "preview|capture",
+                                      "physicsEnabled": false,
+                                      "prefabIdentifier": "gltf:7122-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                      "receiveShadow": false,
+                                      "renderPass": "main_scene",
+                                      "tags": [],
+                                      "transform": {
+                                        "rx": 0,
+                                        "ry": 0,
+                                        "rz": 0,
+                                        "sx": 1,
+                                        "sy": 1,
+                                        "sz": 1,
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                      },
+                                      "useEmbeddedBlendshapes": false,
+                                      "children": [
+                                        {
+                                          "modelName": "surfaces",
+                                          "identifier": "surfaces:11444-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                          "sourceIdentifier": "surfaces:7120-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                          "children": [
+                                            {
+                                              "modelName": "surface",
+                                              "name": "surface0",
+                                              "identifier": "surface:11456-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                              "sourceIdentifier": "surface:7125-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                              "isMaterialIdentifierEnabled": true,
+                                              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:7104-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                              "surfaceGroupIdentifier": "7126-71c379bd-ed9c-491f-a94c-f930b50b3732"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "modelName": "sceneObject",
+                                  "name": "Cube",
+                                  "identifier": "sceneObject:11438-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                  "sourceIdentifier": "sceneObject:7128-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                  "animationMask": {
+                                    "position": false,
+                                    "rotation": false,
+                                    "scale": false
+                                  },
+                                  "cameraVisibility": "back|front",
+                                  "hidden": false,
+                                  "layerIdentifier": "layer0",
+                                  "outputVisibility": "preview|capture",
+                                  "physicsEnabled": false,
+                                  "shapeColor": "0xff808080",
+                                  "shapeType": 0,
+                                  "tags": [],
+                                  "transform": {
+                                    "rx": -1.5707964897155762,
+                                    "ry": 0,
+                                    "rz": 0,
+                                    "sx": 32.75373458862305,
+                                    "sy": 32.75373458862305,
+                                    "sz": 32.75373458862305,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 1.1513503789901733
+                                  },
+                                  "children": [
+                                    {
+                                      "modelName": "mesh",
+                                      "name": "Cube_Material_0",
+                                      "identifier": "mesh:11430-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                      "sourceIdentifier": "mesh:7130-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                      "animationMask": {
+                                        "position": false,
+                                        "rotation": false,
+                                        "scale": false
+                                      },
+                                      "cameraVisibility": "back|front",
+                                      "castShadow": false,
+                                      "hidden": false,
+                                      "layerIdentifier": "layer0",
+                                      "nodeName": "Cube_Material_0",
+                                      "numberOfFaces": 70,
+                                      "outputVisibility": "preview|capture",
+                                      "physicsEnabled": false,
+                                      "prefabIdentifier": "gltf:7134-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                      "receiveShadow": false,
+                                      "renderPass": "main_scene",
+                                      "tags": [],
+                                      "transform": {
+                                        "rx": 0,
+                                        "ry": 0,
+                                        "rz": 0,
+                                        "sx": 1,
+                                        "sy": 1,
+                                        "sz": 1,
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": 0
+                                      },
+                                      "useEmbeddedBlendshapes": false,
+                                      "children": [
+                                        {
+                                          "modelName": "surfaces",
+                                          "identifier": "surfaces:11448-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                          "sourceIdentifier": "surfaces:7132-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                          "children": [
+                                            {
+                                              "modelName": "surface",
+                                              "name": "surface0",
+                                              "identifier": "surface:11452-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                              "sourceIdentifier": "surface:7137-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                              "isMaterialIdentifierEnabled": true,
+                                              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:7104-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                                              "surfaceGroupIdentifier": "7138-71c379bd-ed9c-491f-a94c-f930b50b3732"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "modelName": "audiosource",
+                  "name": "speaker0",
+                  "identifier": "audiosource:14618-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                  "ambient": false,
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "backedByPlaybackController": true,
+                  "cameraVisibility": "back|front",
+                  "distanceToMaxVolume": 0.2,
+                  "distanceToMinVolume": 4,
+                  "hidden": true,
+                  "layerIdentifier": "layer0",
+                  "manualAudioOverrideEnableCapture": "no_override",
+                  "manualAudioOverrideEnableRender": "no_override",
+                  "needsContinuousLooping": true,
+                  "needsContinuousPlaying": true,
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "playbackControllerIdentifier": "audios/audioPlaybackController0.audioctrl",
+                  "sound": "sound:13716-71c379bd-ed9c-491f-a94c-f930b50b3732",
+                  "tags": [],
+                  "transform": {
+                    "rx": 0,
+                    "ry": 0,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "type": "playback_controller",
+                  "vocoderInput": false,
+                  "volume": 1,
+                  "volumeMax": 1,
+                  "volumeMin": 0,
+                  "children": [
+                    {
+                      "modelName": "audioTransforms",
+                      "identifier": "audioTransforms:14620-71c379bd-ed9c-491f-a94c-f930b50b3732"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "microphone_model",
+          "name": "Microphone",
+          "identifier": "microphone_model:4467-a7ac2770-cf78-43d8-af9e-9c54fb906fc6",
+          "animationMask": {
+            "position": false,
+            "rotation": false,
+            "scale": false
+          },
+          "cameraVisibility": "back|front",
+          "disabled": false,
+          "hidden": false,
+          "layerIdentifier": "layer0",
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "previewAudioSource": "default",
+          "tags": [],
+          "transform": {
+            "rx": 0,
+            "ry": 0,
+            "rz": 0,
+            "sx": 1,
+            "sy": 1,
+            "sz": 1,
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  ]
+}
